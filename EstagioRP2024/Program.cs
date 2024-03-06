@@ -5,7 +5,7 @@
 		static void Main(string[] args)
 		{
 			Solucoes solucoes = new Solucoes();
-			//solucoes.ExercicioUm(); // 91
+			solucoes.ExercicioUm(); // 91
 
 			int numero = int.Parse(Console.ReadLine()!);
 			solucoes.Fibonacci(numero);
